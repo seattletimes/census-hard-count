@@ -32,6 +32,11 @@ aside.legend {
     list-style-type: none;
     overflow: auto;
     padding-bottom: 8px;
+
+    @media @tablet {
+      width: 100%;
+    }
+    
     li {
       line-height: 18px;
       margin: 0 10px 2px;
@@ -48,8 +53,9 @@ aside.legend {
       vertical-align: text-top;
       padding: 0 10px;
       @media @tablet {
+        width: 15em;
         display: block;
-        width: auto;
+        width: 100%;
       }
     }
   }
